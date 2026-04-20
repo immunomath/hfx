@@ -54,7 +54,7 @@ Key `metadata` properties (high-level):
 ```
 
 - `license` (object): license metadata (name, identifier, licenseDescription).
-- `checkSum` (string): MD5 checksum of the referenced frequency file as a 32-character hexadecimal string.
+- `hfxID` (string, URI): unique identifier URI for this HFX submission.
 
 `frequencyData` (when present) is an array of objects with the fields:
 
